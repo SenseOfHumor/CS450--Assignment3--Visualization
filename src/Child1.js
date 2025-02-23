@@ -69,7 +69,7 @@ class Child1 extends Component {
     .attr("x", width / 2.8)  // Center it horizontally (visually at least)
     .attr("y", margin.top / 2)  // Position above the chart
     .attr("font-weight", "bold")  // Make it bold
-    .text("Average Tip by Day");
+    .text("Total Bill vs Tips");
   }
 
   componentDidUpdate() {
@@ -137,7 +137,7 @@ class Child1 extends Component {
         .attr("x", width / 2.8)  // Center it horizontally
         .attr("y", margin.top / 2)  // Position above the chart
         .attr("font-weight", "bold")  // Make it bold
-        .text("Average Tip by Day");
+        .text("Total Bill vs Tips");
     }
 
   render() {
